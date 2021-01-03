@@ -1,0 +1,30 @@
+{
+  "name": "readme-spotify",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-scripts": "2.1.1",
+    "text-to-image": "^2.3.0"
+  },
+  "scripts": {
+    "dev": "BROWSER=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "now-build": "cp canvas_lib64/*so.1 node_modules/canvas/build/Release/; yarn build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@now/node": "^1.8.1",
+    "@types/node": "^14.6.2",
+    "@types/node-fetch": "^2.5.7"
+  }
+}
